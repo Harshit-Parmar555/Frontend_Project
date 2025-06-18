@@ -45,9 +45,9 @@ export default function Hero() {
                 </button>
               </div>
               <div className="w-full sm:w-auto">
-                <Link href="/downloads" className="w-full sm:w-auto bg-black text-white text-xs md:text-base rounded-lg border border-zinc-800 px-4 py-3 font-inter cursor-pointer text-center hover:border-purple-900 transition-colors duration-300 ease-in-out">
+                <button className="w-full sm:w-auto bg-black text-white border-[1px] border-zinc-800 text-xs md:text-base rounded-lg px-4 py-3 font-inter cursor-pointer flex items-center justify-center gap-2 hover:border-zinc-600 transition">
                   All Downloads
-                </Link>
+                </button>
               </div>
             </div>
           </div>
